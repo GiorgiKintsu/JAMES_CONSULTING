@@ -80,8 +80,8 @@ footer{
     background-color: #0a233a;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 80px;
+    justify-content: space-between;
+    padding: 0 70px;
 }
 footer .left{
     width: 250px;
