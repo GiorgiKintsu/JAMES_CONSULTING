@@ -21,7 +21,7 @@ header{
     align-items: center;
     padding: 0 95px;
 }
-header .logo h2{
+header .logo a{
     font-size: 1.25rem;
     font-family: var(--primaryFont);
     letter-spacing: 0.02em;
@@ -69,8 +69,96 @@ header nav a:hover{
 header nav a i{
     font-size: 23px;
 }
+/* cover side */
+.cover{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./assets/images/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cover .coverBottomSide{
+    width: 835px;
+    height: 250px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 25px;
+}
+.cover .coverBottomSide h3{
+    font-size: 1.625rem;
+    text-transform: capitalize;
+    font-family: var(--primaryFont);
+    color: black;
+}
+.cover .coverBottomSide h2{
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-family: var(--primaryFont);
+    color: #072136;
+}
+.cover .coverBottomSide button{
+    width: 230px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid #0c3b5f;
+    color: #0c3b5f;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: var(--primaryFont);
+}
+.cover .coverBottomSide button:hover{
+    color: white;
+    background-color: #0c3b5f;
+    transition: 0.5s;
+}
+/* servicesProjectsClients */
+.servicesProjectsClients{
+    width: 100%;
+    height: 80vh;
+    gap: 35px;
+}
+.servicesProjectsClients article{
+    flex-direction: column;
+    gap: 65px;
+    width: 320px;
 
-
+}
+.servicesProjectsClients article h2{
+    font-size: 2.25rem;
+    letter-spacing: 0.05em;
+    font-family: var(--primaryFont);
+    text-transform: uppercase;
+    color: #072136;
+}
+.servicesProjectsClients article p{
+    width: 280px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6em;
+    color: black;
+}
+.servicesProjectsClients article button{
+    width: 181px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid #0c3b5f;
+    color: #0c3b5f;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: var(--primaryFont);
+}
+.servicesProjectsClients article button:hover{
+    color: white;
+    background-color: #0c3b5f;
+    transition: 0.5s;
+}
 
 
 /* footer */
@@ -134,10 +222,6 @@ footer .middle ul li a{
     font-size: 1rem;
     text-transform: capitalize;
 }
-
-
-
-
 footer .right{
     width: 250px;
     height: 70%;
@@ -166,10 +250,15 @@ footer .right div .icons{
 footer .right div .icons a i{
     color: white;
 }
-footer .right p a,
 footer .right p{
     color: white;
-    font-size: 1rem;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+}
+footer .right p a{
+    text-decoration: underline;
+    color: white;
+    font-size: 0.875rem;
     text-transform: capitalize;
 }
 

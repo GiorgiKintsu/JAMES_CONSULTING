@@ -8,6 +8,12 @@
     header nav ul{
         gap: 15px;
     }
+    .servicesProjectsClients{
+        gap: 60px;
+    }
+    .servicesProjectsClients article{
+        width: 250px;
+    }
 }
 @media only screen and (max-width: 910px){
     header{
@@ -46,6 +52,54 @@
         top: 35px;
         left: 30px;
     }
+    /* cover section */
+    .cover{
+        height: 50vh;
+    }
+    .cover .coverBottomSide{
+        width: 280px;
+        height: 140px;
+        gap: 15px;
+    }
+    .cover .coverBottomSide h3{
+        font-size: 1rem;
+    }
+    .cover .coverBottomSide h2{
+        font-size: 1.375rem;
+    }
+    .cover .coverBottomSide button{
+        width: 210px;
+        height: 48px;
+        font-size: 0.875rem;
+    }
+    /* servicesProjectsClients */
+    .servicesProjectsClients{
+        padding: 45px 0;
+        width: 100%;
+        height: auto;
+        gap: 55px;
+        flex-direction: column;
+    }
+    .servicesProjectsClients article{
+        gap: 20px;
+    }
+    .servicesProjectsClients article p{
+        width: 255px;
+    }
+    .servicesProjectsClients article h2{
+        font-size: 1.5rem;
+    }
+    .servicesProjectsClients article button{
+        width: 160px;
+        height: 48px;
+        font-size: 0.875rem;
+    }
+
+
+
+
+
+
 
 
     footer{
@@ -64,9 +118,5 @@
     }
     footer .right div{
         gap: 10px;
-    }
-    footer .right p a,
-    footer .right p{
-        font-size: 0.875rem;
     }
 }
