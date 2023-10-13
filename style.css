@@ -15,7 +15,7 @@ body{
 header{
     width: 100%;
     height: 71px;
-    background-color: #0e3e66;
+    background-color: #0C3C60;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,8 +159,209 @@ header nav a i{
     background-color: #0c3b5f;
     transition: 0.5s;
 }
+/* about */
+.about{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./assets/images/82fcd3_96376843bac9407bb5b50891b78b6210~mv2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216,232,242, 0.92);
+}
+.about .overlay article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+.about .overlay article h3{
+    font-size: 2.25rem;
+    font-family: var(--primaryFont);
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #072136;
+}
+.about .overlay article p{
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    text-align: center;
+    line-height: 1.6em;
+    width: 631px;
+}
+.about .overlay article button{
+    width: 181px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid #0c3b5f;
+    color: #0c3b5f;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: var(--primaryFont);
+}
+.about .overlay article button:hover{
+    color: white;
+    background-color: #0c3b5f;
+    transition: 0.5s;
+}
+/* clients section */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 140px;
+    padding: 140px 0;
+}
+.clients h3{
+    font-size: 2.25rem;
+    font-family: var(--primaryFont);
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #072136;
+}
+.clients .companies{
+    width: 85%;
+    justify-content: space-around;
+}
+.clients .companies img{
+    width: 60px;
+    height: 52px;
+    opacity: 0.6;
+}
+.clients .companies img:nth-child(2){
+    width: 118px;
+    height: 29px;
+}
+.clients .companies img:nth-child(3){
+    width: 102px;
+    height: 34px;
+}
+.clients .companies img:nth-child(4){
+    width: 106px;
+    height: 57px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact section */
+.contact{
+    width: 100%;
+    background-color: #0C3C60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 70px 0;
+}
+.contact h3{
+    font-size: 2.25rem;
+    font-family: var(--primaryFont);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    color: white;
+}
+.contact form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact form .firstLine{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.contact form .firstLine div{
+    display: flex;
+    flex-direction: column;
+}
+.contact form label,
+.contact form .firstLine div label{
+    font-size: 1.125rem;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+}
+.contact form .firstLine div input{
+    width: 445px;
+    height: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.contact form label{
+    font-size: 0.625rem;
+}
+.contact form .thirdLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contact form .thirdLine textarea{
+    width: 698px;
+    height: 91px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.contact form .thirdLine button{
+    width: 187px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid #0c3b5f;
+    color: #072136;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: var(--primaryFont);
+}
+.contact .map{
+    width: 960px;
+    height:  300px;
+}
+.contact .map iframe{
+    width: 100%;
+    height: 100%;
+}
 /* footer */
 footer{
     width: 100%;

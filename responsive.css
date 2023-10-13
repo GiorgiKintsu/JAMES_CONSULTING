@@ -14,6 +14,19 @@
     .servicesProjectsClients article{
         width: 250px;
     }
+    .contact form{
+        /* width: 850px; */
+    }
+    .contact form .firstLine div input{
+        width: 380px;
+    }
+    .contact form .thirdLine textarea{
+        width: 600px;
+    }
+    .contact .map{
+        width: 850px;
+        height:  300px;
+    }
 }
 @media only screen and (max-width: 910px){
     header{
@@ -94,6 +107,36 @@
         height: 48px;
         font-size: 0.875rem;
     }
+    /* about section */
+    .about{
+        height: auto;
+    }
+    .about .overlay article{
+        gap: 20px;
+        padding: 40px 0;
+    }
+    .about .overlay article h3{
+        font-size: 1.5rem;
+    }
+    .about .overlay article p{
+        width: 280px;
+    }
+    .about .overlay article button{
+        font-size: 0.875rem;
+        width: 160px;
+        height: 48px;
+    }
+    /* clients section */
+    .clients{
+        gap: 50px;
+    }
+    .clients h3{
+        font-size: 1.5rem;
+    }
+    .clients .companies{
+        flex-direction: column;
+        gap: 60px;
+    }
 
 
 
@@ -102,6 +145,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+    /* contact section */
+    .contact h3{
+        font-size: 1.813rem;
+    }
+    .contact form{
+        align-items: flex-start;
+    }
+    .contact form .firstLine{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .contact form .firstLine div input{
+        width: 280px;
+        height: 38px;
+    }
+    .contact form .thirdLine{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact form .thirdLine textarea{
+        width: 280px;
+        height: 72px;
+    }
+    .contact form .thirdLine button{
+        width: 280px;
+        height: 42px;
+    }
+    .contact .map{
+        width: 280px;
+        height:  280px;
+    }
     footer{
         height: 400px;
         flex-direction: column;
