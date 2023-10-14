@@ -1,0 +1,51 @@
+@media only screen and (max-width: 980px){
+    section .services .serviceBox{
+        width: 850px;
+        height: 270px;
+    }
+}
+ 
+
+
+@media only screen and (max-width: 910px){
+    section{
+        padding: 50px 0 50px 0;
+        gap: 50px;
+    }
+    section .title h2{
+        font-size: 1.938rem;
+    }
+    section .services{
+        row-gap: 30px;
+    }
+    section .services .serviceBox{
+        width: 278px;
+        height: 473px;
+        flex-direction: column;
+    }
+    section .services .serviceBox .left{
+        width: 100%;
+        height: 183px;
+    }
+    section .services .serviceBox .right{
+        padding-left: 20px;
+        align-self: flex-start;
+        justify-content: center;
+    }
+    section .services .serviceBox .right a{
+        font-size: 1.375rem;
+    }
+    section .services .serviceBox .right p{
+        line-height: 1.42em;
+    }
+    section .services .serviceBox .right p:nth-child(2){
+        display: inline;
+        width: 238px;
+        font-size: 1rem;
+        
+    }
+    section .services .serviceBox .right .button{
+        width: 235px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Syne&display=swap');
+
+:root{
+    --primaryFont: 'Roboto', sans-serif; 
+    --seconderyFont: 'Syne', sans-serif;   
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 20px 120px 20px;
+}
+section .title h2{
+    text-align: center;
+    font-size: 3.75rem;
+    font-family: var(--primaryFont);
+    color: #072136;
+    text-transform: uppercase;
+}
+section .services{
+    flex-direction: column;
+    gap: 80px
+}
+section .services .serviceBox{
+    width: 940px;
+    height: 292px;
+    border: 1px solid black;
+}
+
+section .services .serviceBox .left{
+    width: 50%;
+    height: 100%;
+}
+section .services .serviceBox .left img{
+    width: 100%;
+    height: 100%;
+}
+section .services .serviceBox .right{
+    padding-left: 60px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+}
+section .services .serviceBox .right a{
+    font-size: 1.625rem;
+    font-family: var(--primaryFont);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.33em;
+    color: #072136;
+}
+section .services .serviceBox .right a:hover{
+    color: #4683b1;
+}
+section .services .serviceBox .right p{
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    line-height: 2em;
+    color: black;
+}
+section .services .serviceBox .right p:nth-child(2){
+    display: none;
+}
+section .services .serviceBox .right .button{
+    width: 109px;
+    height: 40px;
+    border: 1px solid #072136;
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    color: #0C3C60;
+}
+section .services .serviceBox .right .button:hover{
+    color: #4683b1;
+}
+
+
+

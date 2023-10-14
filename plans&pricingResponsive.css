@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1000px){
+    section .title h2{
+        font-size: 3.5rem;
+    }
+}
+ 
+
+
+@media only screen and (max-width: 910px){
+    section{
+        padding: 40px 0 50px 0;
+        gap: 40px;
+    }
+    section .title h2{
+        font-size: 1.938rem;
+        line-height: 1.2em;
+        width: 280px;
+    }
+    section .title p{
+        font-size: 1rem;
+        line-height: 1.4em;
+        width: 280px;
+    }
+    section .offers article{
+        width: 288px;
+        height: 679px;
+    }
+    section .offers article .top p{
+        width: 210px;
+        font-size: 0.75rem;
+    }
+    section .offers article .top button{
+        width: 226px;
+        height: 42px;
+    }
+    section .offers .add{
+        top: 334px;
+    }
+}

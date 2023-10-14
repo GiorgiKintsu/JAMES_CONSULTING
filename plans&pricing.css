@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Syne&display=swap');
+
+:root{
+    --primaryFont: 'Roboto', sans-serif; 
+    --seconderyFont: 'Syne', sans-serif;   
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 60px 0px 100px 0px;
+}
+section .title{
+    flex-direction: column;
+    gap: 20px;
+}
+section .title h2{
+    text-align: center;
+    font-size: 3.75rem;
+    font-family: var(--primaryFont);
+    color: #0C3C60;
+    text-transform: uppercase;
+}
+section .title p{
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    text-align: center;
+    color: #0C3C60;
+}
+section .offers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+section .offers article{
+    width: 380px;
+    height: 670px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+section .offers article .top{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+section .offers article .top h4{
+    font-size: 1.25rem;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    line-height: 1.5em;
+    color: #0C3C60;
+}
+section .offers article .top .price h6{
+    font-size: 1.125rem;
+    color: #0C3C60;
+}
+section .offers article .top .price h5{
+    font-size: 4.375rem;
+    line-height: 0.7em;
+    font-family: var(--primaryFont);
+    color: #0C3C60;
+    margin: 0px;
+    padding: 0px;
+}
+section .offers article .top p{
+    text-align: center;
+    width: 295px;
+    font-size: 0.875rem;
+    color: #0C3C60;
+    line-height: 20px;
+}
+section .offers article .top button{
+    width: 270px;
+    height: 50px;
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    text-transform: uppercase;
+    background-color: #0C3C60;
+    color: white;
+    border: 0px;
+}
+section .offers article .bottom{
+    width: 100%;
+    height: 50%;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+section .offers article .bottom ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section .offers article .bottom ul li{
+    text-align: center;
+    font-size: 0.875rem;
+    text-transform: lowercase;
+    color: black;
+    line-height: 1.5rem;
+}
+section .offers article .bottom ul li i{
+    font-size: 1rem;
+    margin-right: 8px;
+    color: #2e85c7;
+}
+section .offers .add{
+    width: 85px;
+    height: 30px;
+    background-color: #0C3C60;
+    position: absolute;
+    top: 290px;
+    left: auto;
+}
+section .offers .add h5{
+    font-size: 0.875rem;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    color: white;
+}
+
+
+
+
+
+
+
