@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px){
+    section{
+        padding: 50px 0 50px 0;
+        gap: 50px;
+    }
+    section .projectsTitle h2{
+        font-size: 1.938rem;
+    }
+    section .projects{
+        row-gap: 45px;
+    }
+    section .projects .projectArticle{
+        width: 280px;
+        gap: 20px;
+    }
+    section .projects .projectArticle img{
+        height: 172px;
+    } 
+    section .projects .projectArticle h3{
+        font-size: 1.5rem;
+    } 
+    section .projects .projectArticle p{
+        width: 280px;
+    }
+}

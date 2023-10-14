@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Syne&display=swap');
+
+:root{
+    --primaryFont: 'Roboto', sans-serif; 
+    --seconderyFont: 'Syne', sans-serif;   
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 20px 120px 20px;
+}
+section .projectsTitle h2{
+    text-align: center;
+    font-size: 3.75rem;
+    font-family: var(--primaryFont);
+    color: #072136;
+    text-transform: uppercase;
+}
+section .projects{
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 140px;
+}
+section .projects .projectArticle{
+    width: 438px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+section .projects .projectArticle img{
+    width: 100%;
+    height: 268px;
+}
+section .projects .projectArticle h3{
+    font-size: 2.25rem;
+    font-family: var(--primaryFont);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #072136;
+}
+section .projects .projectArticle p{
+    width: 425px;
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    line-height: 1.8em;
+    color: black;
+}
