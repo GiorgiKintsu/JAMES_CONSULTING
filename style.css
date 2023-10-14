@@ -212,21 +212,6 @@ header nav a i{
     transition: 0.5s;
 }
 /* clients section */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .clients{
     width: 100%;
     display: flex;
@@ -264,20 +249,6 @@ header nav a i{
     width: 106px;
     height: 57px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* contact section */
 .contact{
     width: 100%;
@@ -298,7 +269,6 @@ header nav a i{
     color: white;
 }
 .contact form{
-
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -462,4 +432,108 @@ footer .right p a{
     font-size: 0.875rem;
     text-transform: capitalize;
 }
-
+/* about.html */
+.topSection{
+    width: 100%;
+    flex-direction: column;
+    gap: 90px;
+    padding: 80px 0 0 0;
+}
+.topSection h2{
+    font-size: 3.75rem;
+    font-family: var(--primaryFont);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #072136;
+}
+.topSection .center{
+    gap: 80px;
+}
+.topSection .center article{
+    width: 386px;
+    flex-direction: column;
+    gap: 35px;
+}
+.topSection .center article p{
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    line-height: 1.8em;
+    color: black;
+}
+.topSection .center aside{
+    width: 489px;
+    height: 634px;
+}
+.topSection .center aside img{
+    width: 100%;
+    height: 100%;
+}
+/*  */
+.bottomSection{
+    padding: 160px 0 130px 0;
+    width: 100%;
+    flex-direction: column;
+    gap: 160px;
+}
+.bottomSection .title{
+    flex-direction: column;
+    gap: 15px;
+}
+.bottomSection .title h3{
+    font-size: 2.25rem;
+    font-family: var(--primaryFont);
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #072136;
+}
+.bottomSection .title p{
+    text-align: center;
+    width: 277px;
+    font-size: 1rem;
+    line-height: 1.6em;
+}
+.bottomSection .articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    column-gap: 110px;
+    row-gap: 160px;
+}
+.bottomSection .articles article{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.bottomSection .articles article img{
+    width: 100%;
+    height: 318px;
+}
+.bottomSection .articles article div h4{
+    font-size: 1.625rem;
+    letter-spacing: 0.03em;
+    font-family: var(--primaryFont);
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+}
+.bottomSection .articles article div h6{
+    font-size: 1.125rem;
+    letter-spacing: 0.03em;
+    font-family: var(--primaryFont);
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #072136;
+}
+.bottomSection .articles article p{
+    width: 342px;
+    font-size: 1rem;
+    line-height: 1.8em;
+    font-family: var(--primaryFont);
+    color: black;
+}

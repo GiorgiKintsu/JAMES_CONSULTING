@@ -27,6 +27,14 @@
         width: 850px;
         height:  300px;
     }
+    /* about.html */
+    .topSection .center{
+        gap: 40px;
+    }
+    .topSection .center aside{
+        width: 450px;
+        height: 615px;
+    }
 }
 @media only screen and (max-width: 910px){
     header{
@@ -137,24 +145,6 @@
         flex-direction: column;
         gap: 60px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* contact section */
     .contact h3{
         font-size: 1.813rem;
@@ -202,5 +192,53 @@
     }
     footer .right div{
         gap: 10px;
+    }
+    /* about.html */
+    .topSection{
+        padding: 50px 0 0 0;
+        gap: 30px;
+    }
+    .topSection h2{
+        font-size: 1.938rem;
+    }
+    .topSection .center{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .topSection .center article{
+        width: 280px;
+    }
+    .topSection .center aside{
+        width: 320px;
+        height: 400px;
+    }
+    /*  */
+    .bottomSection{
+        padding: 40px 0 40px 0;
+        gap: 40px;
+    }
+    .bottomSection .title h3{
+        font-size: 1.75rem;
+    }
+    .bottomSection .articles{
+        grid-template-columns: 1fr;
+        row-gap: 70px;
+    }
+    .bottomSection .articles article{
+        width: 280px;
+        gap: 20px;
+    }
+    .bottomSection .articles article img{
+        height: 242px;
+    }
+    .bottomSection .articles article div h4{
+        font-size: 1.438rem;
+    }
+    .bottomSection .articles article div h6{
+        font-size: 1.063rem;
+    }
+    .bottomSection .articles article p{
+        width: 280px;
     }
 }
